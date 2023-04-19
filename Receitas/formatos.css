@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+/*Página Home */
+header{
+    display: flex;
+    background-color: #292929;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+.botao{
+    text-decoration: none;
+    color: #f1f1f1;
+    font-weight: bolder;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+}
+
+.botao:hover{
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: white;
+    color: #a02828;
+    transition: 0.5s;
+}
+
+
+body{
+    background-color: #919191;
+    align-items: center;
+    text-align:center;
+}
+
+
+.logo{
+    display:inline-flex;
+    align-items: center;
+    margin-top: 155px;
+}
+
+.frasehome{
+    text-align: center;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+/* Página Receitas */
+.areareceitas{
+    background-color: white;
+    text-align: left;
+    display: inline-grid;
+    width: 25%;
+    max-height: 1500px ;
+    margin: 30px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 20px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+#ingredientes{
+    display: list-item;
+    padding-left: 20px;
+    padding: 1px;
+}
+
+#modopreparo{
+    display: list-item;
+    list-style-type: disc;
+    padding-right: 10px;
+}
+span{
+    padding: 20px;
+}
+
+
+/* Página Cadastro */
+.form-group{
+    margin-left: 250px;
+    margin-top: 30px;
+    margin-right: 0px;
+}
+
+
+.col-sm-2{
+    margin-right: -50px;
+}
+
+.btn{
+    background-color: #343a40;
+    border-color: #343a40;
+    color: white;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 50px;
+    
+}
+
+.btn:hover{
+    background-color: white;
+    color: #a02828;
+    border: none;
+}
+
+.button{
+    padding: 10px;
+}
+
+/* Rodapé global*/
+.box-form{
+    padding: 20px 0;
+}
+
+.fixed-bottom{
+    background-color: black;
+    color: white;
+    font-weight: 300;
+}
+
